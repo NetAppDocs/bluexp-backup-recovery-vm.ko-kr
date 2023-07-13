@@ -1,0 +1,29 @@
+---
+indexpage:
+  lead: VM용 BlueXP 백업 및 복구는 독립 실행형 가상 어플라이언스(오픈 가상 어플라이언스 형식)로, AWS의 VMware 클라우드 및
+    NetApp ONTAP용 Amazon FSx에서 VM 및 데이터 저장소에 대한 데이터 보호 서비스를 제공합니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: VM을 위한 BlueXP 백업 및 복구에 대해 알아보십시오
+      url: concept-bluexp-backup-and-recovery-for-virtual-machines-on-amazon-fsx.html
+    - title: 지원되지 않는 워크플로
+      url: concept-unsupported-workflows.html
+  - title: VM용 BlueXP 백업 및 복구 배포
+    links:
+    - title: OVA를 다운로드합니다
+      url: task-download-the-open-virtual-appliance.html
+    - title: VM용 BlueXP 백업 및 복구 배포
+      url: task-deploy-bluexp-backup-and-recovery-for-vms.html
+  - title: VM에 대해 BlueXP 백업 및 복구를 사용합니다
+    links:
+    - title: 스토리지 추가
+      url: task-add-storage.html
+    - title: 백업 정책을 생성합니다
+      url: task-create-backup-policies-for-vms-and-datastores.html
+    - title: 리소스 그룹을 생성합니다
+      url: task-create-resource-groups.html
+    - title: 필요 시 리소스 그룹을 백업합니다
+      url: task-back-up-resource-groups-on-demand.html
+    - title: Amazon FSx에서 가상 머신을 복구합니다
+      url: task-restore-virtual-machines-from-amazon-fsx.html

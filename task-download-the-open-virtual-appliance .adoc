@@ -1,0 +1,47 @@
+---
+permalink: task-download-the-open-virtual-appliance.html 
+sidebar: sidebar 
+keywords: download, open virtual appliance 
+summary: 'OVA(Open Virtual Appliance)를 설치하기 전에 vCenter에 인증서를 추가합니다. tar 파일에는 OVA 및 Entrust Root 및 Intermediate 인증서가 들어 있으며 인증서는 인증서 폴더 내에 있습니다. OVA 구축은 VMware vCenter 8.0 이상에서 지원됩니다.' 
+---
+= OVA(Open Virtual Appliance) 다운로드
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+OVA(Open Virtual Appliance)를 설치하기 전에 vCenter에 인증서를 추가합니다. 를 클릭합니다 `.tar` 파일에 OVA 및 Entrust Root 및 Intermediate 인증서가 들어 있으며, 인증서는 인증서 폴더 내에서 찾을 수 있습니다. OVA 구축은 VMware vCenter 8.0 이상에서 지원됩니다.
+
+Entrust 인증서에 의해 서명된 OVA를 신뢰할 수 없는 경우 다음 절차를 수행하여 문제를 해결해야 합니다.
+
+.단계
+. VM OVA용 BlueXP 백업 및 복구를 다운로드하려면 다음을 수행하십시오.
++
+** 에 로그인합니다 https://mysupport.netapp.com/products/index.html["NetApp Support 사이트"^]
+** 제품 목록에서 * VM * 용 BlueXP 백업 및 복구 * 를 선택한 다음 * 최신 릴리스 다운로드 * 버튼을 클릭합니다.
+** VM용 BlueXP 백업 및 복구를 다운로드합니다 `.tar` 파일을 원하는 위치에 저장합니다.
+
+
+. tar 파일의 압축을 풉니다. tar 파일에는 OVA 및 certs 폴더가 포함되어 있습니다. 인증서 폴더에는 Entrust 루트 및 중간 인증서가 들어 있습니다.
+. vSphere Client 자격 증명을 사용하여 AWS의 VMC에 로그인합니다.
+. Administration [Certificates > Certificate Management] 메뉴로 이동합니다.
+. 신뢰할 수 있는 루트 인증서 * 옆에 있는 * 추가 * 를 클릭합니다.
++
+** 인증서 폴더로 이동합니다.
+** Entrust Root 및 Intermediate 인증서를 선택합니다.
+** 각 인증서를 한 번에 하나씩 설치합니다.
+
+
+. 인증서는 신뢰할 수 있는 루트 인증서 아래의 패널에 추가됩니다.
++
+인증서가 설치되면 OVA를 확인하고 배포할 수 있습니다.
+
+
+
+[NOTE]
+====
+다운로드한 OVA가 변조되지 않은 경우 Publisher 열에 신뢰할 수 있는 인증서가 표시됩니다.
+
+====

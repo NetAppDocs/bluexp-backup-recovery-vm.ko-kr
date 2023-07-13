@@ -1,0 +1,28 @@
+---
+permalink: whats-new.html 
+sidebar: sidebar 
+keywords: 2-node switched Cisco 92300YC cluster switch migration 
+summary: VM용 BlueXP 백업 및 복구의 새로운 기능에 대해 알아보십시오. 
+---
+= VM을 위한 BlueXP 백업 및 복구의 새로운 기능
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+VM용 BlueXP 백업 및 복구의 새로운 기능에 대해 알아보십시오.
+
+
+
+== 2023년 7월 13일
+
+
+
+=== VM 1.0에 대한 BlueXP 백업 및 복구는 현재 GA 상태입니다
+
+VM에 대한 BlueXP 백업 및 복구를 사용하여 가상 시스템의 데이터를 보호할 수 있습니다. Amazon FSx에서 데이터 저장소를 백업하고 가상 머신을 원래 위치로 복구할 수 있습니다.
+
+이 솔루션은 AWS 기반 VMware 클라우드의 가상 머신 및 데이터 저장소와 NetApp ONTAP용 Amazon FSx에 특히 적합합니다.
+
+link:concept-bluexp-backup-and-recovery-for-virtual-machines-on-amazon-fsx.html["Amazon FSx의 가상 머신에 대한 BlueXP 백업 및 복구"]

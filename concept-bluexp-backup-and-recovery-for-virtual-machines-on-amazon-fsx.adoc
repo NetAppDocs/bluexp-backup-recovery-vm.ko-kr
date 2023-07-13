@@ -1,0 +1,20 @@
+---
+permalink: concept-bluexp-backup-and-recovery-for-virtual-machines-on-amazon-fsx.html 
+sidebar: sidebar 
+keywords: bluexp, backup, recovery, virtual machines, amazon fsx 
+summary: 'VM용 BlueXP 백업 및 복구는 독립 실행형 가상 어플라이언스(오픈 가상 어플라이언스 형식)로, AWS의 VMware 클라우드 및 NetApp ONTAP용 Amazon FSx에서 VM 및 데이터 저장소에 대한 데이터 보호 서비스를 제공합니다. VM용 BlueXP 백업 및 복구를 사용하여 데이터 저장소를 백업하고 가상 시스템을 원래 위치로 복원할 수 있습니다.' 
+---
+= Amazon FSx의 가상 머신에 대한 BlueXP 백업 및 복구
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+VM용 BlueXP 백업 및 복구는 독립 실행형 가상 어플라이언스(오픈 가상 어플라이언스 형식)로, AWS의 VMware 클라우드 및 NetApp ONTAP용 Amazon FSx에서 VM 및 데이터 저장소에 대한 데이터 보호 서비스를 제공합니다. VM용 BlueXP 백업 및 복구를 사용하여 데이터 저장소를 백업하고 가상 시스템을 원래 위치로 복원할 수 있습니다.
+
+* Amazon FSx에서 NFS 유형 데이터 저장소만 백업할 수 있습니다.
+* NFS 데이터 저장소를 백업하려면 ONTAP 9.10 이상을 실행해야 합니다.
+* VMware Cloud에는 미리 정의된 "CloudAdmin" 역할이 제공됩니다. CloudAdmin 역할은 SDDC 워크로드 및 스토리지 정책, 콘텐츠 라이브러리, vSphere 태그, 리소스 풀 등의 관련 객체를 생성 및 관리하는 데 필요한 권한을 갖습니다.
+* VM 및 VMDK를 현재 위치(데이터 이동 없이 복원)로 복원할 수 있습니다.
+
