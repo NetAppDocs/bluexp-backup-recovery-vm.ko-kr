@@ -27,3 +27,11 @@ indexpage:
       url: task-back-up-resource-groups-on-demand.html
     - title: Amazon FSx에서 가상 머신을 복구합니다
       url: task-restore-virtual-machines-from-amazon-fsx.html
+  - title: 데모 및 자습서
+    links:
+    - title: VM용 BlueXP 백업 및 복구 설치
+      url: https://www.youtube.com/watch?v=kCuKY0fBf5U
+    - title: FSx for ONTAP 데이터 저장소 및 VM을 백업합니다
+      url: https://www.youtube.com/watch?v=cLWOFm_3g3U
+    - title: FSx for ONTAP 데이터 저장소 VM 및 VMDK를 복원합니다
+      url: https://www.youtube.com/watch?v=RVLYP0lguxkM
