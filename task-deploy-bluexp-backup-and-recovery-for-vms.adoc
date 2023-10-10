@@ -11,7 +11,7 @@ summary: 가상화 시스템에서 VM, 데이터 저장소 및 애플리케이�
 
 
 [role="lead"]
-가상화 시스템에서 VM, 데이터 저장소 및 애플리케이션 정합성이 보장되는 데이터베이스를 보호하려면 VM을 위한 BlueXP 백업 및 복구를 구축해야 합니다.
+가상 시스템에서 VM 및 데이터 저장소를 보호하려면 VM용 BlueXP 백업 및 복구를 구축해야 합니다.
 
 .시작하기 전에
 ++++
@@ -30,9 +30,8 @@ OVA 구축은 VMware vCenter 8.0 이상에서 지원됩니다.
 * 유효한 공개 및 개인 키 파일이 있는 인증서가 있어야 합니다. 자세한 내용은 스토리지 인증서 관리 섹션의 문서를 참조하십시오.
 * VM에 대한 BlueXP 백업 및 복구 배포 중에 브라우저 캐시 문제를 방지하려면 vSphere Client의 모든 브라우저 세션에서 로그아웃하고 닫은 후 브라우저 캐시를 삭제해야 합니다.
 * vCenter에서 TLS(Transport Layer Security)를 활성화해야 합니다. VMware 설명서를 참조하십시오.
+* vCenter와 동일한 시간대에 VM에 대한 BlueXP 백업 및 복구를 구축해야 합니다.
 
-
-vCenter와 동일한 표준 시간대에 VM용 BlueXP 백업 및 복구를 구축합니다.
 
 .단계
 . VMware vCenter 7.0.3 이상 버전의 경우 OVA(Open Virtual Appliance) 다운로드 섹션의 단계에 따라 인증서를 vCenter로 가져옵니다.

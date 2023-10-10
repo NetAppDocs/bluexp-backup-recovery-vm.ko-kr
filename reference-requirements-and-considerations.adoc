@@ -31,4 +31,6 @@ VM 및 VMC에 대한 BlueXP 백업 및 복구는 동일한 시간대를 사용�
 
 
 
+* vmc.vmware.com 콘솔에서 방화벽 포트를 열어 컴퓨팅 게이트웨이 공용 IP가 관리 네트워크의 vCenter와 TCP 443을 통해 통신할 수 있도록 합니다.
+* AWS 콘솔에서 FSx for ONTAP가 실행되는 VPC의 보안 그룹을 업데이트하여 FSx for ONTAP에 액세스하는 VM에 대한 BlueXP 백업 및 복구를 허용해야 합니다.
 

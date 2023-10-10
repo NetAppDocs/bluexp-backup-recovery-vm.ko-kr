@@ -89,7 +89,6 @@
   <block id="1ac228dd82997c534998d8c776a81009" category="list-text">유효한 공개 및 개인 키 파일이 있는 인증서가 있어야 합니다. 자세한 내용은 스토리지 인증서 관리 섹션의 문서를 참조하십시오.</block>
   <block id="78dd2db401a1c567e4094c34da3d53e3" category="list-text">VM에 대한 BlueXP 백업 및 복구 배포 중에 브라우저 캐시 문제를 방지하려면 vSphere Client의 모든 브라우저 세션에서 로그아웃하고 닫은 후 브라우저 캐시를 삭제해야 합니다.</block>
   <block id="8ba7fa3d7ed705b172a2802a36085538" category="list-text">vCenter에서 TLS(Transport Layer Security)를 활성화해야 합니다. VMware 설명서를 참조하십시오.</block>
-  <block id="d706d30254764a674cce32eb658463b4" category="paragraph">vCenter와 동일한 표준 시간대에 VM용 BlueXP 백업 및 복구를 구축합니다.</block>
   <block id="60fef4f382ecd40d07aa6f5d88accaa7" category="list-text">VMware vCenter 7.0.3 이상 버전의 경우 OVA(Open Virtual Appliance) 다운로드 섹션의 단계에 따라 인증서를 vCenter로 가져옵니다.</block>
   <block id="9e6343514537d0d6a99bafe616c5aa86" category="list-text">브라우저에서 VMware vSphere vCenter로 이동합니다.</block>
   <block id="a5bc2dcdf45e4e981e8c5477447aa605" category="list-text">VMware vCenter Single Sign-On 페이지 * 에 로그인합니다.</block>
@@ -453,4 +452,8 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
+  <block id="f8c50cec8b281b2a3e589464e5dfba35" category="list-text">vmc.vmware.com 콘솔에서 방화벽 포트를 열어 컴퓨팅 게이트웨이 공용 IP가 관리 네트워크의 vCenter와 TCP 443을 통해 통신할 수 있도록 합니다.</block>
+  <block id="6bfaca7cf08b162bbacdc9479a2ca693" category="list-text">AWS 콘솔에서 FSx for ONTAP가 실행되는 VPC의 보안 그룹을 업데이트하여 FSx for ONTAP에 액세스하는 VM에 대한 BlueXP 백업 및 복구를 허용해야 합니다.</block>
+  <block id="852604ac38f959dae2ec3b3009d3fc07" category="paragraph">가상 시스템에서 VM 및 데이터 저장소를 보호하려면 VM용 BlueXP 백업 및 복구를 구축해야 합니다.</block>
+  <block id="ebfc4f565cf4b541e8d94e4baad23f9f" category="list-text">vCenter와 동일한 시간대에 VM에 대한 BlueXP 백업 및 복구를 구축해야 합니다.</block>
 </blocks>
