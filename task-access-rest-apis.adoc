@@ -1,0 +1,44 @@
+---
+permalink: task-access-rest-apis.html 
+sidebar: sidebar 
+keywords: access REST APIs, REST APIs 
+summary: REST API에 액세스하려면 다음 단계를 수행하십시오. 
+---
+= Swagger API 웹 페이지를 사용하여 REST API에 액세스합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이지에 액세스하여 VM REST API에 대한 BlueXP 백업 및 복구를 표시할 수 있습니다.
+
+.시작하기 전에
+VM REST API용 BlueXP 백업 및 복구의 경우 VM 어플라이언스에 대한 BlueXP 백업 및 복구의 IP 주소 또는 호스트 이름을 알고 있어야 합니다.
+
+
+NOTE: 플러그인은 타사 애플리케이션과의 통합을 위해 REST API만 지원하며 PowerShell cmdlets 또는 CLI는 지원하지 않습니다.
+
+.단계
+. 브라우저에서 URL을 입력하여 플러그인 Swagger 웹 페이지에 액세스합니다.
++
+https://<OVA_IP>/api/swagger-ui/index.html[]
+
++
+
+NOTE: REST API URL에 +, 문자를 사용하지 마십시오. , % 및 &.
+
++
+* 예 *
+
++
+BlueXP 백업 및 복구 - VM REST API:
+
++
+https://<OVA_IP>/api/swagger-ui/index.html[]
+
++
+로그인 vCenter 인증 메커니즘을 사용하여 토큰을 생성합니다.
+
+. API 리소스 유형을 클릭하여 해당 리소스 유형의 API를 표시합니다.
+

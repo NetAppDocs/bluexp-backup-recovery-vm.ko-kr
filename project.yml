@@ -12,7 +12,11 @@ sidebar:
   - title: VM용 BlueXP 백업 및 복구 문서
     url: "/index.html"
   - title: 릴리스 정보
-    url: "/whats-new.html"
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+    - title: 알려진 제한 사항
+      url: "/reference-limitations.html"
   - title: 시작하십시오
     entries:
     - title: VM을 위한 BlueXP 백업 및 복구에 대해 알아보십시오
@@ -37,8 +41,22 @@ sidebar:
       url: "/task-create-resource-groups.html"
     - title: 필요 시 리소스 그룹을 백업합니다
       url: "/task-back-up-resource-groups-on-demand.html"
+  - title: 데이터 저장소를 마운트하고 마운트 해제합니다
+    entries:
+    - title: 데이터 저장소를 마운트합니다
+      url: "/task-mount-datastores.html"
+    - title: 데이터 저장소를 마운트 해제합니다
+      url: "/task-unmount-datastores.html"
+  - title: VMDK 연결 및 분리
+    entries:
+    - title: VM에 VMDK 연결
+      url: "/task-attach-vmdks-vm.html"
+    - title: 가상 디스크를 분리합니다
+      url: "/task-detach-virtual-disks.html"
   - title: Amazon FSx에서 가상 머신을 복구합니다
     url: "/task-restore-virtual-machines-from-amazon-fsx.html"
+  - title: REST API 액세스
+    url: "/task-access-rest-apis.html"
   - title: 지식 및 지원
     entries:
     - title: 지원을 위해 등록하십시오
