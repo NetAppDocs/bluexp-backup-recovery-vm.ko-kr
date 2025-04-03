@@ -1,5 +1,9 @@
 ---
 indexpage:
+  title: VM용 BlueXP 백업 및 복구 문서
+  summary: Amazon FSx의 가상 머신에 대한 BlueXP 백업 및 복구
+  keywords: bluexp backup and recovery for VMs documentation, Deploy, BlueXP, backup,
+    recovery, OVA, storage, Demos, tutorials
   lead: VM용 BlueXP 백업 및 복구는 독립 실행형 가상 어플라이언스(오픈 가상 어플라이언스 형식)로, AWS의 VMware 클라우드 및
     NetApp ONTAP용 Amazon FSx에서 VM 및 데이터 저장소에 대한 데이터 보호 서비스를 제공합니다.
   tiles:
@@ -30,10 +34,10 @@ indexpage:
   - title: 데모 및 자습서
     links:
     - title: VM용 BlueXP 백업 및 복구 설치
-      url: https://www.youtube.com/watch?v=kCuKY0fBf5U
+      url: https://www.youtube.com/watch?v=senCAisw5VQ
     - title: FSx for ONTAP 데이터 저장소 및 VM을 백업합니다
-      url: https://www.youtube.com/watch?v=cLWOFm_3g3U
+      url: https://www.youtube.com/watch?v=NUFRkfnhQNk
     - title: FSx for ONTAP 데이터 저장소 VM 및 VMDK를 복원합니다
-      url: https://www.youtube.com/watch?v=RVLYP0lguxkM
+      url: https://www.youtube.com/watch?v=Wk8q-vJ3TIg
     - title: Oracle 및 MS ® SQL 워크로드 보호
       url: https://community.netapp.com/t5/Tech-ONTAP-Blogs/Protect-Oracle-MS-SQL-workloads-using-NetApp-SnapCenter-in-VMware-Cloud-on-AWS/ba-p/449168
